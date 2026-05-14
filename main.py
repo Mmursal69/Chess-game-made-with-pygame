@@ -4,7 +4,7 @@ pygame.init()
 pygame.mixer.init()
 from stockfish import Stockfish
 stockfish = Stockfish(path="stockfish") 
-# Or use path="/usr/bin/stockfish" if the above doesn't work
+# use path="/usr/bin/stockfish" if the above doesnot work
 stockfish.set_skill_level(20)
 WIDTH = 1440
 HEIGHT = 830
